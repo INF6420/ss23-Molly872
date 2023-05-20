@@ -6,7 +6,7 @@ I thought it would be fund to create a faux rendition of a virtual book club.  F
 ## Wireframes
 
 ### About Me Page
-![](WireFrames\About-Me-Page-Wireframe.png)
+![](WireFrames/About-Me-Page-Wireframe.png)
 
 #### Header - Logo or Word Art
 Navigation Menu - Will link to other topic pages
@@ -15,7 +15,7 @@ Footer - Book Club Title and Date
 
 ### Landing Page/Book List
 
-![](WireFrames\Book-List-(Landing-Page)-Wireframe.png)
+![](WireFrames/Book-List-(Landing-Page)-Wireframe.png)
 
 #### Header - Logo or Word Art
 Navigation Menu - Will link to other topic pages
@@ -24,7 +24,7 @@ Footer - Book Club Title and Date
 
 ### Individual Book Pages
 
-![](WireFrames\Book-Review-Ind-Book-Wireframe.png)
+![](WireFrames/Book-Review-Ind-Book-Wireframe.png)
 
 #### Header - Logo or Word Art
 Navigation Menu - Will link to other topic pages
@@ -33,7 +33,7 @@ Footer - Book Club Title and Date
 
 ### Make A Recommendation
 
-![](WireFrames\Make-A-Recommendation-Page-Wireframe.png)
+![](WireFrames/Make-A-Recommendation-Page-Wireframe.png)
 
 #### Header - Logo or Word Art
 Navigation Menu - Will link to other topic pages
