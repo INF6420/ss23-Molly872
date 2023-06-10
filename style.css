@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*Full page Text */
+body{
+    background-color: white;
+    font-family: American Typewriter, serif;
+    color: #333333;
+}
+
+.navbar {
+    padding: 5px;
+    margin: 0px;
+    background-color: #80b3ff;
+    list-style: none;
+    flex-basis: 100%;
+    text-decoration: none;
+    font-size: larger;
+  }
+  .navbar a{
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+    text-decoration: none;
+    padding: 30px;
+  }
+  .dmenu{
+    position: relative;
+    display: inline-block;
+  }
+  .dbutton{
+   border: none;
+   background-color: #80b3ff;
+   color: white;
+   font-size: 20px;
+  }
+   .dcontent{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 10px 0px;
+    z-index: 1;
+    color:#333333;
+   }
+   .dcontent a {
+    color: #333333;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: thin;
+    border-left: #80b3ff;
+    border-right:#80b3ff;
+    border-bottom:#80b3ff;
+    text-decoration: none;
+    display: block;
+    background-color: #80b3ff;
+    font-size: medium;
+ 
+  }
+  .dmenu:hover 
+  .dcontent {
+    display: block;
+    font-size: medium;
+
+  }
+  .horizontallist{
+    display: inline;
+  }  
+
+  /*Page Content */
+main{
+    align-items: center;
+    flex-basis: 100%;
+    margin: 0px auto;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+}
+h3{
+  font-family: 'Playfair Display', serif;
+}
+h4{
+  font-family: 'Playfair Display', serif;
+}
+a {
+  font-family: 'Playfair Display', serif;
+  color:#333333;
+}
+    .center {
+        display: block;
+        margin: 0px auto;
+    }
+
+.imglarge{
+  width: 400px;
+  height: 600px;
+
+}
+
+.imgmed{
+    width: 305px;
+    height: 350px;
+}
+.imgmain{
+  width: 305px;
+  height: 420px;
+}
+.shift{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.colorblue{
+  background-color:#80b3ff;
+}
+.colorwhite{
+   background-color:#f1f1f1;
+}
+.leftaligning {
+    float: left;
+    padding-right: 20px;
+  
+  }
+  .fittext {
+    font-size: larger;
+    padding-top: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+  }
+  .fittext2 {
+    font-size: larger;
+    padding-top: 20px;
+    margin: 0px;
+    top: 50%;
+    padding-bottom: 10px;
+    }
+    .fittext3 {
+      font-size: larger;
+      padding-right: 10px;
+      margin: 0px;
+    }
+  .border{
+    display: block;
+    align-items: center;
+    width:800px;
+    height: 350px;
+  }
+  .border2{
+    display: block;
+    align-items: center;
+    width:850px;
+    height: 620px;
+    border: 10px double #f1f1f1;
+    border-width: Thick;
+  }
+  .border3{
+    display: block;
+    align-items: center;
+    width:850px;
+    height: 430px;
+    border: 10px double #f1f1f1;
+    border-width: Thick;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .border4{
+    width:850px;
+    height:500px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+.extrapad{
+  padding-bottom: 30px;
+}
+  /*Footer Content */
+footer {
+  margin:0;
+  padding: 10px;
+  background-color: #80b3ff;
+  font-family: 'Playfair Display', serif;
+}
+
+#form {
+margin: 0 auto;
+border: double  #80b3ff;
+padding: 20px;
+width: 550px;
+
+}
+label {
+  display: block;
+}
+#submit{
+background-color: #80b3ff;
+border-radius: 10px;
+cursor: pointer;
+padding:5px;
+display: inline;
+margin:0;
+position:absolute;
+transform: translate(175%, 100%);
+}
+textarea{
+width: 500px;
+height: 1em;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 1px outset #80b3ff;
+border-radius: 6px;
+background-color: #f8f8f8;
+resize: none;
+text-align:center;
+display: block;
+box-sizing: border-box;
+text-align: left;
+}
+textarea[name="whythisbookisloved"] {
+  height: 10em;
+}
+.pleasework{
+position:relative;
+
+}
+
+/*Medium Screens  */
+@media screen and (max-width: 850px) {
+nav img{
+  width: 192px;
+  height: 164px;
+  
+}
+.imgmed{
+  width:204px;
+  height:233px; 
+  display: block;
+  margin: 0px auto;
+}
+.imglarge{
+  width: 305px;
+  height: 420px;
+}
+.imgmain{
+  width:204px;
+  height:280px; 
+}
+.navbar a{
+  padding: 10px;
+}
+
+.fittext {
+  font-size: medium;
+  padding-top: 0px;
+  display: block;
+  margin: 0px auto;
+}
+.fittext2 {
+  font-size: medium;
+  padding-top: 0px;
+  display: block;
+  margin: 0px auto;
+}
+.fittext3{
+  font-size: medium;
+  padding-top: 0px;
+  display: block;
+  margin: 0px auto;
+}
+.border{
+  height:233px;
+  width:700px;
+}
+.border2{
+  width:700px;
+  height: 440px;
+}
+.border3{
+  width:700px;
+  height: 290px;
+}
+.border4{
+  width:700px;
+  height: 350px;
+}
+textarea{
+  width: 350px;
+}
+#submit{
+  transform: translate(120%, 100%);
+}
+#form{
+  width: 375px;
+}
+
+
+
+}
+/*Small Screens  */
+@media screen and (max-width: 700px) {
+ nav img {
+  width:144px;
+  height: 123px;
+ }
+ .imglarge
+ {
+  width:204px;
+  height:280px; 
+  display: block;
+  margin: 0px auto;
+ }
+ .imgmain{
+  display: block;
+  margin: 0px auto;
+ }
+ .navbar{
+  font-size: small;
+ }
+ .navbar a{
+  font-size: small;
+  padding: 5px;
+ }
+ /* Change dropdown menu from hover to click once we reach java*/
+
+ h1{
+  font-size: 1.5em;
+  text-align: center;
+ }
+ 
+ .fittext {
+ height: auto;
+ width:400px;
+ text-align: justify;
+ }
+ .fittext2 {
+  height: auto;
+  width:350px;
+  text-align: justify;
+  display: block;
+  margin: 0px auto;
+}
+
+ .border{
+  width:auto;
+  height:auto;
+}
+.border2{
+  width:auto;
+  height:auto;
+  border: none;
+}
+.border3{
+  width:auto;
+  height: auto;
+  border:solid #80b3ff;
+}
+.border4{
+  width:auto;
+  height: auto;
+}
+
+.leftaligning {
+  float: none;
+  padding-right: 0px;
+}
+ .shift{
+  padding-left: 0px;
+  padding-bottom: 0px;
+ }
+ .footer {
+  font-size: small;
+ }
+
+.colorblue{
+  background-color: white;
+}
+h2{
+  font-size: 1.25em;
+  text-align: center;
+ }
+ h3{
+  font-size: 1.5em;
+  text-align: center;
+ }
+ h4{
+  font-size: 1em;
+  text-align: center;
+ }
+.extrapad{
+  background-color: #80b3ff;
+  padding-bottom: 10px;
+}
+textarea{
+  width: 290px;
+}
+
+#form{
+  width: 300px;
+}
+#submit{
+  transform: translate(80%,100%);
+}
+}
+
+
+/* Dropdown
+<div class="w3-dropdown-click">
+<button onclick="myFunction()" class="w3-button w3-black">Click Me!</button>
+<div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+</div>
+
+<script>
+function myFunction() {
+var x = document.getElementById("Demo");
+if (x.className.indexOf("w3-show") == -1) { 
+  x.className += " w3-show";
+} else {
+  x.className = x.className.replace(" w3-show", "");
+}
+}
+</script> 
+*/
+
+
+/* Hover
+<div class="w3-bar w3-light-grey">
+<a href="#" class="w3-bar-item w3-button">Home</a>
+<a href="#" class="w3-bar-item w3-button">Link 1</a>
+<div class="w3-dropdown-hover">
+  <button class="w3-button">Dropdown</button>
+  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+</div>
+</div> 
+*/

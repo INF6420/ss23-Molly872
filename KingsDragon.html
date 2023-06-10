@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Molly's Virual Book club</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <img
-          src="Images/BookClubLogo.png"
-          alt="Molly's Virtual Book Club logo"
-        />"
-        <ul>
-          <li><a href="About.html">About Molly</a></li>
-          <li><a href="Books.html">The Books</a></li>
-          <li><a href="WutheringHeights.html">The Classics</a></li>
-          <li><a href="WhyTheyMarched.html">Non-Fiction</a></li>
-          <li><a href="KingsDragon.html">The Fantastic</a></li>
-          <li><a href="Contact.html">Make A Recommendation</a></li>
-        </ul>
-      </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molly's Virtual Book club</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+  <div>
+    <header> 
+        <nav>
+            <a href= "Books.html"><img src="Images/BookClubLogo.png" alt="Molly's Virtual Book Club logo" class="center"></a>
+            <ul class="navbar">      
+                    <li class="horizontallist"><a href="About.html">About Molly</a> </li>
+                  <div class="dmenu">
+                  <li><button class="dbutton"><a href="Books.html">The Books</a></button></li>
+                    <div class="dcontent">
+                    <a href="WutheringHeights.html">The Classics</a>
+                    <a href="WhyTheyMarched.html">Non-Fiction</a>
+                    <a href="KingsDragon.html">The Fantastic</a>
+                  </div>
+                  </div>
+                  <li class="horizontallist"><a href="Contact.html">Make A Recommendation</a>  </li>
+            </ul>
+        </nav>
     </header>
+    <br>
+    <br>
     <div>
-      <article>
-        <hgroup>
-          <h3>King's Dragon</h3>
-          <h4>Kate Elliott</h4>
-        </hgroup>
-        <p></p>
-      </article>
+        <article class="center border2 colorblue">
+            <img src="Images/KingsDragonCover.jpg" 
+            alt= "Book Cover Why They Marched by Susan Ware"
+            class="imglarge leftaligning shift">
+            <hgroup class="fittext2">
+                <h3>
+                    King's Dragon
+                </h3>
+                <h4>
+                    Kate Elliott
+                </h4>
+            </hgroup>
+            <p class="fittext2">
+             The King's Dragon starts in a world rife with war.  Follow Liath and Alain through two seemingly separate lives  as they become intwined 
+             in a conflict greater than either of them could have imagined.  Set in a medieval kingdom filled with magic and mystery, watch as 
+             the story unfolds into a masterpiece.  
+            </p>
+        </article>
     </div>
     <p>
-      Share your thoughts on this book below!
-      <!--Still figuring out comment section.  Hopefully completed as part of final project.  Will probably reach out to you for some extra help-->
+       <h2> Share your thoughts on this book below!</h2>
+        
+        
+        <div class="commentbox"></div>
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script>commentBox('my-project-id')</script>
     </p>
-    <footer>&copy; Molly's Virtual Book Club 2023</footer>
-  </body>
+    <br>
+    <br>
+    <br>
+        <footer class="footer">
+          &copy; Molly's Virtual Book Club 2023
+        </footer>
+</body>
 </html>
