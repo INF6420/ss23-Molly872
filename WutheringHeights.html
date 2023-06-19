@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Molly's Virual Book club</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <img
-          src="Images/BookClubLogo.png"
-          alt="Molly's Virtual Book Club logo"
-        />"
-        <ul>
-          <li><a href="About.html">About Molly</a></li>
-          <li><a href="Books.html">The Books</a></li>
-          <li><a href="WutheringHeights.html">The Classics</a></li>
-          <li><a href="WhyTheyMarched.html">Non-Fiction</a></li>
-          <li><a href="KingsDragon.html">The Fantastic</a></li>
-          <li><a href="Contact.html">Make A Recommendation</a></li>
-        </ul>
-      </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molly's Virtual Book club</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header> 
+        <nav>
+            <a href= "Books.html"><img src="Images/BookClubLogo.png" alt="Molly's Virtual Book Club logo" class="center"></a>
+            <ul class="navbar">      
+                    <li class="horizontallist"><a href="About.html">About Molly</a> </li>
+                  <div class="dmenu">
+                  <li><button class="dbutton"><a href="Books.html">The Books</a></button></li>
+                    <div class="dcontent">
+                    <a href="WutheringHeights.html">The Classics</a>
+                    <a href="WhyTheyMarched.html">Non-Fiction</a>
+                    <a href="KingsDragon.html">The Fantastic</a>
+                  </div>
+                  </div>
+                  <li class="horizontallist"><a href="Contact.html">Make A Recommendation</a>  </li>
+            </ul>
+        </nav>
     </header>
-    <article>
+    <br>
+    <br>
+    <article class="center border2 colorblue">
       <img
         src="Images/WutheringHeightsCover.jpg"
         alt="Book Cover Wuthering Heights by Emily Bronte"
+        class="imglarge leftaligning shift"
       />
-      <hgroup>
+      <hgroup class="fittext2">
         <h3>Wuthering Heights</h3>
         <h4>Emily Bronte</h4>
       </hgroup>
-      <p>
+      <p class="fittext2">
         Wuthering Heights is a devastatingly romantic tale, with an unrivaled
         focus on delving into character personalities. Bronte tells a love story
         unlike any other, with characters you can practically touch. Take the
@@ -39,9 +45,17 @@
       </p>
     </article>
     <p>
-      Share your thoughts on this book below!
-      <!--Still figuring out comment section.  Hopefully completed as part of final project.  Will probably reach out to you for some extra help-->
+      <h2>Share your thoughts on this book below! </h2>
+      <div class="commentbox"></div>    
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<script>commentBox('my-project-id')</script>
+
     </p>
-    <footer>&copy; Molly's Virtual Book Club 2023</footer>
+    <br>
+    <br>
+    <br>
+        <footer class="footer">
+          &copy; Molly's Virtual Book Club 2023
+        </footer>
   </body>
 </html>
