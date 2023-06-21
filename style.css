@@ -230,6 +230,7 @@ nav img{
   height: 164px;
   
 }
+}
 .imgmed{
   width:204px;
   height:233px; 
@@ -294,7 +295,7 @@ textarea{
 
 
 
-}
+
 /*Small Screens  */
 @media screen and (max-width: 700px) {
  nav img {
@@ -318,6 +319,9 @@ textarea{
  .navbar a{
   font-size: small;
   padding: 5px;
+ }
+ .input{
+  display: flex;
  }
  /* Change dropdown menu from hover to click once we reach java*/
 
@@ -422,20 +426,4 @@ if (x.className.indexOf("w3-show") == -1) {
 }
 }
 </script> 
-*/
-
-
-/* Hover
-<div class="w3-bar w3-light-grey">
-<a href="#" class="w3-bar-item w3-button">Home</a>
-<a href="#" class="w3-bar-item w3-button">Link 1</a>
-<div class="w3-dropdown-hover">
-  <button class="w3-button">Dropdown</button>
-  <div class="w3-dropdown-content w3-bar-block w3-card-4">
-    <a href="#" class="w3-bar-item w3-button">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  </div>
-</div>
-</div> 
 */
