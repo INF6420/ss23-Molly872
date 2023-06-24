@@ -28,33 +28,34 @@
         Make A Recommendation
     </h1>
     <p> 
-        <form
+        <form id="form" class="validate"
   action="https://formspree.io/f/xeqwbwny"
   method="POST"
 >
   <label>
     Book Title:
-    <textarea name="booktitle"></textarea>
+    <textarea name="BookTitle" maxlength="140" required></textarea>
   </label>
   <label>
     Author
-    <textarea name="author"></textarea>
+    <textarea name="Author" maxlength="140" required></textarea>
   </label>
   <label>
     Genre
-    <select name="Genre">
-        <option value="Classic">A Classic</option>
-        <option value="Non-Fiction">Non-Fiction</option>
-        <option value="Fantasy">Fantasy</option>
-        <option value="something else">Something Else</option>
+    <select name="Genre" required>
+        <option disabled selected value class="styleme2">Select An Option</option>
+        <option value="Classic" class="styleme2">A Classic</option>
+        <option value="Non-Fiction" class="styleme2">Non-Fiction</option>
+        <option value="Fantasy" class="styleme2">Fantasy</option>
+        <option value="something else" class="styleme2">Something Else</option>
     </select>
   </label>
   <label>
-    Tell me why you love this book
-    <textarea name="whythisbookisloved"></textarea>
+    Tell me why you love this book <span class="styleme">(500 character maximum)</span>
+    <textarea name="whythisbookisloved" required maxlength="500"></textarea>
   </label>
   <!-- your other form fields go here -->
-  <button type="submit">Share with Molly</button>
+  <button type="submit" id="submit">Share with Molly</button>
 </form>
     </p>
     <br>
@@ -63,5 +64,6 @@
         <footer class="footer">
           &copy; Molly's Virtual Book Club 2023
         </footer>
+        <script src="script.js"></script>
 </body>
 </html>

@@ -190,6 +190,8 @@ width: 550px;
 }
 label {
   display: block;
+  margin: 0px auto;
+  padding: 10px;
 }
 #submit{
 background-color: #80b3ff;
@@ -201,6 +203,9 @@ margin:0;
 position:absolute;
 transform: translate(175%, 100%);
 }
+form{
+  text-align:left;
+}
 textarea{
 width: 500px;
 height: 1em;
@@ -210,18 +215,50 @@ border: 1px outset #80b3ff;
 border-radius: 6px;
 background-color: #f8f8f8;
 resize: none;
-text-align:center;
 display: block;
 box-sizing: border-box;
-text-align: left;
 }
 textarea[name="whythisbookisloved"] {
   height: 10em;
 }
-.pleasework{
-position:relative;
 
+.styleme {
+  font-family: American Typewriter, serif;
+  display: inline-flex;
+  color: grey;
+  font-size: smaller;
 }
+.styleme2{
+  font-family: American Typewriter, serif;
+  color:#333333;
+}
+.error{
+  border-color: red;
+}
+
+.error-message{
+  color: red;
+  font-weight: bold;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^PLEASE WORK IN THIS SPAAACCEEE. ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+STOP WORKING MESSING WITH SMALL SCREENS
+STTTOOOOOOOPPPPPP
+STOP
+STOP
+NOOOO
+Stop.
+ONLY FOR SMALL SCREENS
+STAHP.
+No.
+I SWEAR IF I HAVE TO FIX ONE MORE THING
+DO NOT WORK BELOW
+Quit it.
+Please don't.
+
+
+Also save EACH section please.
+
 
 /*Medium Screens  */
 @media screen and (max-width: 850px) {
@@ -291,10 +328,10 @@ textarea{
 #form{
   width: 375px;
 }
-
-
-
 }
+/*DON'T WORK HERE!
+
+
 /*Small Screens  */
 @media screen and (max-width: 700px) {
  nav img {
@@ -318,6 +355,9 @@ textarea{
  .navbar a{
   font-size: small;
   padding: 5px;
+ }
+ .input{
+  display: flex;
  }
  /* Change dropdown menu from hover to click once we reach java*/
 
@@ -422,20 +462,4 @@ if (x.className.indexOf("w3-show") == -1) {
 }
 }
 </script> 
-*/
-
-
-/* Hover
-<div class="w3-bar w3-light-grey">
-<a href="#" class="w3-bar-item w3-button">Home</a>
-<a href="#" class="w3-bar-item w3-button">Link 1</a>
-<div class="w3-dropdown-hover">
-  <button class="w3-button">Dropdown</button>
-  <div class="w3-dropdown-content w3-bar-block w3-card-4">
-    <a href="#" class="w3-bar-item w3-button">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  </div>
-</div>
-</div> 
 */
