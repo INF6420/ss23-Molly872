@@ -9,7 +9,7 @@ body{
 
 .navbar {
     padding: 5px;
-    margin: 0px;
+    margin: 0;
     background-color: #80b3ff;
     list-style: none;
     flex-basis: 100%;
@@ -37,7 +37,7 @@ body{
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 10px 0px;
+    box-shadow: 0 8px 10px 0;
     z-index: 1;
     color:#333333;
    }
@@ -69,7 +69,7 @@ body{
 main{
     align-items: center;
     flex-basis: 100%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 h1{
   font-family: 'Playfair Display', serif;
@@ -89,7 +89,7 @@ a {
 }
     .center {
         display: block;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
 .imglarge{
@@ -123,22 +123,22 @@ a {
   }
   .fittext {
     font-size: larger;
-    padding-top: 0px;
-    margin: 0px;
-    margin-top: 0px;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 0;
     padding-bottom: 10px;
   }
   .fittext2 {
     font-size: larger;
     padding-top: 20px;
-    margin: 0px;
+    margin: 0;
     top: 50%;
     padding-bottom: 10px;
     }
     .fittext3 {
       font-size: larger;
       padding-right: 10px;
-      margin: 0px;
+      margin: 0;
     }
   .border{
     display: block;
@@ -190,6 +190,8 @@ width: 550px;
 }
 label {
   display: block;
+  margin: 0 auto;
+  padding: 10px;
 }
 #submit{
 background-color: #80b3ff;
@@ -201,6 +203,9 @@ margin:0;
 position:absolute;
 transform: translate(175%, 100%);
 }
+form{
+  text-align:left;
+}
 textarea{
 width: 500px;
 height: 1em;
@@ -210,18 +215,49 @@ border: 1px outset #80b3ff;
 border-radius: 6px;
 background-color: #f8f8f8;
 resize: none;
-text-align:center;
 display: block;
-box-sizing: border-box;
-text-align: left;
 }
 textarea[name="whythisbookisloved"] {
   height: 10em;
 }
-.pleasework{
-position:relative;
 
+.styleme {
+  font-family: American Typewriter, serif;
+  display: inline-flex;
+  color: grey;
+  font-size: smaller;
 }
+.styleme2{
+  font-family: American Typewriter, serif;
+  color:#333333;
+}
+.error{
+  border-color: red;
+}
+
+.error-message{
+  color: red;
+  font-weight: bold;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^PLEASE WORK IN THIS SPAAACCEEE. ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+STOP WORKING MESSING WITH SMALL SCREENS
+STTTOOOOOOOPPPPPP
+STOP
+STOP
+NOOOO
+Stop.
+ONLY FOR SMALL SCREENS
+STAHP.
+No.
+I SWEAR IF I HAVE TO FIX ONE MORE THING
+DO NOT WORK BELOW
+Quit it.
+Please don't.
+
+
+Also save EACH section please.
+
 
 /*Medium Screens  */
 @media screen and (max-width: 850px) {
@@ -235,7 +271,7 @@ nav img{
   width:204px;
   height:233px; 
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .imglarge{
   width: 305px;
@@ -251,21 +287,21 @@ nav img{
 
 .fittext {
   font-size: medium;
-  padding-top: 0px;
+  padding-top: 0;
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .fittext2 {
   font-size: medium;
-  padding-top: 0px;
+  padding-top: 0;
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .fittext3{
   font-size: medium;
-  padding-top: 0px;
+  padding-top: 0;
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .border{
   height:233px;
@@ -292,10 +328,6 @@ textarea{
 #form{
   width: 375px;
 }
-
-
-
-
 /*Small Screens  */
 @media screen and (max-width: 700px) {
  nav img {
@@ -307,11 +339,11 @@ textarea{
   width:204px;
   height:280px; 
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
  }
  .imgmain{
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
  }
  .navbar{
   font-size: small;
@@ -340,7 +372,7 @@ textarea{
   width:350px;
   text-align: justify;
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
  .border{
@@ -364,11 +396,11 @@ textarea{
 
 .leftaligning {
   float: none;
-  padding-right: 0px;
+  padding-right: 0;
 }
  .shift{
-  padding-left: 0px;
-  padding-bottom: 0px;
+  padding-left: 0;
+  padding-bottom: 0;
  }
  .footer {
   font-size: small;
