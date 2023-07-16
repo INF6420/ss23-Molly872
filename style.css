@@ -195,7 +195,7 @@ width: 550px;
 }
 label {
   display: block;
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 10px;
 }
 #submit{
@@ -221,6 +221,7 @@ border-radius: 6px;
 background-color: #f8f8f8;
 resize: none;
 display: block;
+box-sizing: border-box;
 }
 textarea[name="whythisbookisloved"] {
   height: 10em;
@@ -244,6 +245,25 @@ textarea[name="whythisbookisloved"] {
   color: red;
   font-weight: bold;
 }
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^PLEASE WORK IN THIS SPAAACCEEE. ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+STOP WORKING MESSING WITH SMALL SCREENS
+STTTOOOOOOOPPPPPP
+STOP
+STOP
+NOOOO
+Stop.
+ONLY FOR SMALL SCREENS
+STAHP.
+No.
+I SWEAR IF I HAVE TO FIX ONE MORE THING
+DO NOT WORK BELOW
+Quit it.
+Please don't.
+
+
+Also save EACH section please.
+
 
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^PLEASE WORK IN THIS SPAAACCEEE. ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 STOP WORKING MESSING WITH SMALL SCREENS
@@ -333,6 +353,10 @@ textarea{
 #form{
   width: 375px;
 }
+}
+/*DON'T WORK HERE!
+
+
 /*Small Screens  */
 @media screen and (max-width: 700px) {
  nav img {
@@ -345,6 +369,9 @@ textarea{
   height:280px; 
   display: block;
   margin: 0 auto;
+ }
+ .imgmed{
+  float:none;
  }
  .imgmed{
   float:none;
